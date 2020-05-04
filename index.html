@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="HTML5 音樂觀察儀" />
+    <meta property="og:description" content="聲音是由於空氣的疏密震動（疏密波/縱波）所產生的，而這種震動的快慢影響著聽覺，使大家感覺到不同高低的聲音，聲音越高，表示聲波的頻率越大，而聲音較低時，聲波的頻率較低。" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/audio-visualizer.css">
+    <title>HTML5 音樂觀察儀</title>
+</head>
+<body>
+    <br>
+    <br>
+    <div class="container">
+        <canvas id="canvas" style="background:#f8f8f8;width:100%;height:100%;"></canvas>
+        <br>
+        <br>
+        <audio id="audio" controls>
+            <source src="music/dareka-ga-kimi-wo-aishiteru.mp3" type="audio/ogg">
+        </audio>
+    </div>
+    <script src="js/audio-visualizer.js" defer></script>
+</body>
+</html>

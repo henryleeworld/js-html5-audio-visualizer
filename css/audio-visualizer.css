@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: white;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    background-image: linear-gradient(to right, black, red, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+audio {
+    width: 100%;
+}
